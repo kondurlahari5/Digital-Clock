@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background: url("clockimg.jpg");
+    background-size: cover;
+    overflow: hidden;
+  }
+  
+  h2 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(248, 248, 248);
+  }
+  
+  .clock {
+    display:  grid;
+  
+  }
+  
+  .clock div {
+    margin: 20px;
+    position: relative;
+    border-radius: 50%; /* Make the clock elements circular */
+    width: 100px; /* Adjust the width and height to maintain circular shape */
+    height: 1-0px;
+  }
+  
+  .clock span {
+    border-radius: 50%;
+    width: 100px;
+    height: 80px;
+    background: rgb(167, 13, 2);
+    opacity: 0.8;
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .clock .text {
+    height: 30px;
+    font-size: 10px;
+    background: rgb(0, 0, 12);
+    opacity: 0.8;
+    border-radius: 0%;
+  
+  }
+  
+  .clock #ampm {
+    border-radius: 20%;
+    bottom: 0;
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background: rgb(19, 0, 128);
+    color: rgb(229, 239, 248);
+  }
